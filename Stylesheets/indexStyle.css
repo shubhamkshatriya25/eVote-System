@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+.jumbotron {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Assets/vote1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container,.container1{
+    padding: 20px;
+    /* margin: 2rem 0; */
+    font-family: 'Montserrat',sans-serif;
+}
+.title{
+      color: rgb(6, 85, 85);
+      font-weight: bold;
+      font-size: 5rem;
+}
+.tag{
+    color: grey;
+    font-size: 2rem;
+}
+.desc{
+    color: grey;   
+    font-size: 1.5rem;
+}
+.system {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.content{
+    color: grey;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+}
+.system-desc {
+    vertical-align: middle;
+}
+.features{
+    margin: 0;
+    padding: 30px 50px;
+    text-align: center;
+}
+.section_title{
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: bold;
+    color: rgb(6, 85, 85);
+    text-align: center;
+}
+.content1{
+    color: grey;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.steps{
+    padding: 30px;
+}
+
+#hIw{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+   url(../Assets/vote1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: auto;
+}
+.step_title{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(178, 184, 184);
+}
+.contenthIw{
+    padding: 20px 5px ;
+    color: white;
+    font-size: 1.1rem;
+}

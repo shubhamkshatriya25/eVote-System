@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-item {
+    padding: 5px;
+    font-size: large;
+}
+@media screen and (max-width:500px){
+    .nav-item{
+        padding: 10px;
+    }
+    .vl{
+        opacity: 0;
+    }
+    .privacy hr{
+        opacity: 1;
+        color: white;
+    }
+}
+.navbar_main,
+.navbar {
+    font-family: 'Montserrat',
+        'Helvetica Neue',
+        'Helvetica',
+        sans-serif;
+    font-size: 1em;
+    margin: 0 2%;
+    background-color: black;
+    color: #e1f0f7;
+    margin: 0;
+    top: 0;
+}
+
+.nav_name {
+    float: right;
+    font-size: 40px;
+    margin: auto auto auto 0;
+    padding-left: 10px;
+    color: rgb(6, 85, 85);
+}
+.nav_img{
+    border-radius: 30px;
+}
+
+.nav-item {
+    margin: 0 0.3rem;  
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.btnn{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+.btnn:hover{
+    transform: scale(1.1);
+}
+
+#footer {
+   background-color: rgb(32, 32, 32);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.foot {
+    padding: 3%;
+}
+
+
+.vl {
+    border-left: 2px solid dimgray;
+    height: auto;
+    margin-left: -40px;
+}
+
+.row2 {
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+#footer{
+    margin-top: 100px;
+    text-align: left;
+}
+.privacy a{
+    color: white;
+    font-size: 1rem;
+}
+.privacy{
+    padding-top: 20px;
+}
+.contentFoot{
+    font-size: 0.8rem;
+    color: rgb(168, 164, 164);
+    opacity: 0.8;
+}
+
+.privacy a {
+    color: rgb(168, 164, 164);
+    font-size: 1rem;
+    padding: 5px;
+}
+.privacy a:hover {
+    display: inline-block;
+    transform: scale(1.5);
+    text-decoration: none;
+    color: white;
+}
+.privacy {
+    padding-top: 20px;
+}
+
+.contentFoot {
+    font-size: 0.8rem;
+    color: white;
+    opacity: 0.8;
+}
+
