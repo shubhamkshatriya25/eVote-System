@@ -1,0 +1,40 @@
+.jumbotron {
+    background-color: rgb(32, 32, 32);
+    height: 420px;
+    width: 100%;
+}
+.jumbotron p {
+    text-align: center;
+    position: relative;
+    font-size: 3rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.members {
+    padding: 30px 20px;
+    text-align: center;
+}
+.members img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+.member-name{
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+}
+#team .row{
+    margin: 20px;
+}
+#team{
+    background-image: linear-gradient(rgb(6, 85, 85, 0),rgb(6, 85, 85, 1));
+}
